@@ -1,0 +1,322 @@
+baseURL = "http://rosecoded.com"
+disableLanguages = ["fr","de","it"]
+disqusShortname = ""
+googleAnalytics = ""
+paginate = "4"
+summaryLength = "30"
+theme = "airspace-hugo"
+title = "Rose Coded | IT Cooperative"
+
+
+[languages.de]
+contentDir = "content/german"
+copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). Alle Rechte vorbehalten."
+languageCode = "de-DE"
+languageName = "Deutsch"
+weight = 3
+[[languages.de.menu.footer]]
+URL = "about"
+name = "Über"
+weight = 1
+[[languages.de.menu.footer]]
+URL = "project"
+name = "Projekt"
+weight = 2
+[[languages.de.menu.footer]]
+URL = "service"
+name = "Dienstleistung"
+weight = 3
+[[languages.de.menu.footer]]
+URL = "pricing"
+name = "Preise"
+weight = 4
+[[languages.de.menu.footer]]
+URL = "faq"
+name = "Häufige Fragen"
+weight = 5
+[[languages.de.menu.footer]]
+URL = "contact"
+name = "Kontakt"
+weight = 6
+[[languages.de.menu.main]]
+URL = "/"
+name = "Startseite"
+weight = 1
+[[languages.de.menu.main]]
+URL = "about"
+name = "Über"
+weight = 2
+[[languages.de.menu.main]]
+URL = "project"
+name = "Projekt"
+weight = 3
+[[languages.de.menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 4
+[[languages.de.menu.main]]
+hasChildren = true
+name = "Mehr"
+weight = 5
+[[languages.de.menu.main]]
+URL = "faq"
+name = "Häufige Fragen"
+parent = "Mehr"
+[[languages.de.menu.main]]
+URL = "pricing"
+name = "Preise"
+parent = "Mehr"
+[[languages.de.menu.main]]
+URL = "service"
+name = "Dienstleistung"
+parent = "Mehr"
+[[languages.de.menu.main]]
+URL = "contact"
+name = "Kontakt"
+weight = 6
+
+
+[languages.en]
+contentDir = "content/english"
+copyright = "Copyright &copy; 2021 Rose Coded LLC. All Rights Reserved."
+languageCode = "en-US"
+languageName = "English"
+weight = 1
+[[languages.en.menu.footer]]
+URL = "about"
+name = "About"
+weight = 1
+[[languages.en.menu.footer]]
+URL = "project"
+name = "Projects"
+weight = 2
+[[languages.en.menu.footer]]
+URL = "contact"
+name = "Contact"
+weight = 6
+[[languages.en.menu.main]]
+URL = "/"
+name = "Home"
+weight = 1
+[[languages.en.menu.main]]
+URL = "about"
+name = "About"
+weight = 2
+[[languages.en.menu.main]]
+URL = "project"
+name = "Projects"
+weight = 3
+[[languages.en.menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 6
+
+
+[languages.fr]
+contentDir = "content/french"
+copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). Tous droits réservés."
+languageCode = "fr-FR"
+languageName = "Français"
+weight = 2
+[[languages.fr.menu.footer]]
+URL = "about"
+name = "À propos"
+weight = 1
+[[languages.fr.menu.footer]]
+URL = "project"
+name = "Projet"
+weight = 2
+[[languages.fr.menu.footer]]
+URL = "service"
+name = "Service"
+weight = 3
+[[languages.fr.menu.footer]]
+URL = "pricing"
+name = "Tarification"
+weight = 4
+[[languages.fr.menu.footer]]
+URL = "faq"
+name = "Questions fréquentes"
+weight = 5
+[[languages.fr.menu.footer]]
+URL = "contact"
+name = "Contact"
+weight = 6
+[[languages.fr.menu.main]]
+URL = "/"
+name = "Accueil"
+weight = 1
+[[languages.fr.menu.main]]
+URL = "about"
+name = "À propos"
+weight = 2
+[[languages.fr.menu.main]]
+URL = "project"
+name = "Projet"
+weight = 3
+[[languages.fr.menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 4
+[[languages.fr.menu.main]]
+hasChildren = true
+name = "Plus"
+weight = 5
+[[languages.fr.menu.main]]
+URL = "faq"
+name = "Questions fréquentes"
+parent = "Plus"
+[[languages.fr.menu.main]]
+URL = "pricing"
+name = "Tarification"
+parent = "Plus"
+[[languages.fr.menu.main]]
+URL = "service"
+name = "Service"
+parent = "Plus"
+[[languages.fr.menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 6
+
+
+[languages.it]
+contentDir = "content/italian"
+copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). Tutti i diritti riservati."
+languageCode = "it-IT"
+languageName = "Italiano"
+weight = 2
+[[languages.it.menu.footer]]
+URL = "about"
+name = "Chi siamo"
+weight = 1
+[[languages.it.menu.footer]]
+URL = "project"
+name = "Progetto"
+weight = 2
+[[languages.it.menu.footer]]
+URL = "service"
+name = "Servizio"
+weight = 3
+[[languages.it.menu.footer]]
+URL = "pricing"
+name = "Tariffazione"
+weight = 4
+[[languages.it.menu.footer]]
+URL = "faq"
+name = "Domande frequenti"
+weight = 5
+[[languages.it.menu.footer]]
+URL = "contact"
+name = "Contatta"
+weight = 6
+[[languages.it.menu.main]]
+URL = "/"
+name = "Pagina iniziale"
+weight = 1
+[[languages.it.menu.main]]
+URL = "about"
+name = "Chi siamo"
+weight = 2
+[[languages.it.menu.main]]
+URL = "project"
+name = "Progetto"
+weight = 3
+[[languages.it.menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 4
+[[languages.it.menu.main]]
+hasChildren = true
+name = "Più"
+weight = 5
+[[languages.it.menu.main]]
+URL = "faq"
+name = "Domande frequenti"
+parent = "Più"
+[[languages.it.menu.main]]
+URL = "pricing"
+name = "Tariffazione"
+parent = "Più"
+[[languages.it.menu.main]]
+URL = "service"
+name = "Servizio"
+parent = "Più"
+[[languages.it.menu.main]]
+URL = "contact"
+name = "Contatta"
+weight = 6
+
+[markup.goldmark.renderer]
+unsafe = true
+[markup.tableOfContents]
+endLevel = 6
+ordered = false
+startLevel = 2
+[outputs]
+home = ["HTML"]
+
+[params]
+author = "Themefisher"
+description = "This is meta description"
+images = ["images/logo.png"]
+logo = "images/logo.png"
+logo_width = "150px"
+title = "Airspace Hugo Template"
+favicon = "images/favicon.ico"
+
+[params.contact]
+address_descriptors = true
+email = "rosecoded@protonmail.com"
+[params.contact.form]
+action = "#"
+enable = true
+use_netlify = true
+[params.cookies]
+enable = true
+expire_days = 2
+[params.gmap]
+enable = true
+gmap_api = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+[[params.plugins.css]]
+attributes = "media='screen'"
+link = "plugins/bootstrap/css/bootstrap.min.css"
+[[params.plugins.css]]
+attributes = ""
+link = "plugins/ionicons/css/ionicons.min.css"
+[[params.plugins.css]]
+attributes = ""
+link = "plugins/magnific-popup/magnific-popup.min.css"
+[[params.plugins.css]]
+attributes = ""
+link = "plugins/slick/slick.css"
+[[params.plugins.js]]
+attributes = ""
+link = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+attributes = ""
+link = "plugins/bootstrap/js/bootstrap.min.js"
+[[params.plugins.js]]
+attributes = ""
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+attributes = ""
+link = "plugins/magnific-popup/magnific-popup.min.js"
+[[params.plugins.js]]
+attributes = ""
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+attributes = "defer"
+link = "plugins/google-map/gmap.js"
+[params.preloader]
+enable = true
+preloader = ""
+
+[params.widgets]
+sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
+[[params.social]]
+icon = ""
+link = "#"

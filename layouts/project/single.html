@@ -7,10 +7,13 @@
 <section class="portfolio-single-page section-sm">
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-12">
         <img class="img-responsive w-100" src="{{ .Params.Image | relURL }}" alt="">
       </div>
+    </div>
+    <div class="row">
       <div class="col-md-4">
+          <br><br>
         <div class="project-details">
           <h4>Project Details</h4>
           <ul>
@@ -18,11 +21,13 @@
             <li><span>{{ .label }} :</span> <strong>{{ .info | markdownify }}</strong></li>
             {{ end }}
           </ul>
+            <br>
+        {{ if isset .Params "project_url" }}
+        <a href="{{.Params.project_url}}" class="btn btn-main animated fadeInUp">Visit website</a>
+        {{ end }}
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-8">
         <div class="project-content mt-50">
           {{ .Content }}
         </div>
