@@ -1,4 +1,4 @@
-baseURL = "http://rosecoded.com"
+baseURL = "/"
 disableLanguages = ["fr","de","it"]
 disqusShortname = ""
 googleAnalytics = ""
