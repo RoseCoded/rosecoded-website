@@ -4,8 +4,8 @@ banner:
   enable: true
   bg_image: "https://images.pexels.com/photos/50711/board-electronics-computer-data-processing-50711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
   bg_overlay: true
-  title: "An Information Technology <br/> Consulting Agency"
-  content: "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
+  title: "An Information Technology <br/> Consulting Co-operative"
+  content: "We make the web work for workers. We believe in a better future for all, and strive to provide innovative solutions for forward-thinking orgs."
   button:
     enable: true
     label: "See Our Work"
@@ -14,9 +14,9 @@ banner:
 ############################# About #################################
 about:
   enable: true
-  title: "About Us"
+  title: "Who are we, really?"
   description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id."
+  content: "We are a group of tech-minded individuals. Seeing a need in our community for more robust digital solutions, we wanted to carve out space in the consulting world for a human-centric co-operative. We truly believe in the Solidarity Economy and its power to shape the future of our society for the better."
   image: "images/wrapper-img.png"
 
 
