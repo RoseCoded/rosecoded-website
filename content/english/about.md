@@ -1,6 +1,6 @@
 ---
-title: "About Our Company"
-description: "this is meta description"
+title: "Rose Coded: Decoded"
+description: "Who we are and what we stand for."
 bg_image: "images/feature-bg.jpg"
 layout: "about"
 draft: false
@@ -10,84 +10,44 @@ draft: false
 about:
   enable : true
   image : "images/company/about.jpg"
-  title : "We strive to be the best and <br> make awesome work."
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius enim, accusantium repellat ex autem numquam iure officiis facere vitae itaque.
-          
-          
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui vel cupiditate exercitationem, ea fuga est
-  velit nulla culpa modi quis iste tempora non, suscipit repellendus labore voluptatem dicta amet? Lorem ipsum
-  dolor sit amet, consectetur adipisicing elit. Provident, neque!"
+  title : "We make the web work for workers. "
+  content : "Rose Coded was founded in Portland, Oregon in 2021 by a group of professionals with a diverse collection of technical and creative skills who decided to start a business together. Founded on the principles of a democratic workplace, our cooperative business is worker owned and operated, which means that every worker is a part owner and receives an equal say in the business. This means that every employee has a stake in the success of the company and by extension your business!"
 
-  button:
-    enable : true
-    label : "Download Company Profile"
-    link : "#"
-
-  funfacts:
-  # funfacts loop
-  - icon : "ion-ios-flask-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "Completed Projects"
-    count : "349"
-    
-  # funfacts loop
-  - icon : "ion-ios-flame-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "Lines Of Code"
-    count : "35000"
-    
-  # funfacts loop
-  - icon : "ion-ios-pint-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "Satisfied Customer"
-    count : "70"
-    
-  # funfacts loop
-  - icon : "ion-ios-wineglass-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "Awards Winner"
-    count : "10"
-    
-  # funfacts loop
-  - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "Satisfied Customer"
-    count : "75"
-    
-  # funfacts loop
-  - icon : "ion-ios-body-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "Awards Winner"
-    count : "20"
     
 ################################ feature #####################################
 features:
   enable : true
-  title : "We are indepented Design & Development Agency"
+  title : "Our Values"
   feature_item:
   # feature item loop
   - icon : "ion-ios-color-filter-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "IOS App Development"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-    
-  # feature item loop
-  - icon : "ion-ios-unlocked-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "App Secutity"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-    
-  # feature item loop
-  - icon : "ion-ios-game-controller-b-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "Games Development"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-    
-  # feature item loop
-  - icon : "ion-ios-mic-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "Animation and Editing"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    name : "Democracy"
+    content : "A democratic workplace is the cornerstone of our principles."
     
   # feature item loop
   - icon : "ion-ios-lightbulb-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "UI/UX Design"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    name : "Collaboration"
+    content : "Individual growth is gained from shared knowledge and experience."
+    
+  # feature item loop
+  - icon : "ion-ios-body-outline" #ionicon pack v2 : https://ionicons.com/v2/
+    name : "Equity"
+    content : "Employee engagement comes from having a true voice at the table."
+    
+  # feature item loop
+  - icon : "ion-ios-star" #ionicon pack v2 : https://ionicons.com/v2/
+    name : "Empowerment"
+    content : "To grow as a co-operative, we empower our indvidual workers to go above and beyond."
+    
+  # feature item loop
+  - icon : "ion-ios-people" #ionicon pack v2 : https://ionicons.com/v2/
+    name : "Community"
+    content : "We believe in building stronger communities from the inside out."
     
   # feature item loop
   - icon : "ion-ios-star-outline" #ionicon pack v2 : https://ionicons.com/v2/
-    name : "Branding"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    name : "Sustainability"
+    content : "We are committed to sustainable practices that keep our planet and business running smoothly."
   
 
 #################################### testimonial & mission vision #######################################
