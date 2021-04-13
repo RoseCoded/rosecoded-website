@@ -15,8 +15,9 @@ banner:
 about:
   enable: true
   title: "Who are we, really?"
-  description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-  content: "We are a group of tech-minded individuals. Seeing a need in our community for more robust digital solutions, we wanted to carve out space in the consulting world for a human-centric co-operative. We truly believe in the Solidarity Economy and its power to shape the future of our society for the better."
+  content: "We are a group of tech-minded individuals. Seeing a need in our community for more robust digital solutions, we wanted to carve out space in the consulting world for a human-centric co-operative. We truly believe in the Solidarity Economy and its power to shape the future of our society for the better.
+  
+  Our hope is to provide an alternative to traditional consulting agencies for organizations looking to make an impact. Everything we do is part of our purpose to help all people gain the most power possible over their own lives."
   image: "images/wrapper-img.png"
 
 
@@ -25,17 +26,13 @@ portfolio:
   enable: true
   bg_image: "images/feature-bg.jpg"
   title: "WE BELIEVE IN GREAT IDEAS"
-  content: " Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  content: "Big or small, your projects are important to us. We specialize in building tools and websites that respect your vision and values. We also provide training and consultation to meet your goals. 
+  
+  We do more than code. From company to community, we empower others to build the change they want to see. 
   "
   button:
     enable: true
-    label: "View Works"
+    label: "Check it out"
     link: "project"
 
 
@@ -49,8 +46,8 @@ service:
 cta:
   enable: true
   bg_image: "images/call-to-action-bg.jpg"
-  title: "We design delightful digital experiences."
-  content: "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+  title: "Ready to talk?"
+  content: "We'd love to help get your next big idea off the ground."
   button:
     enable: true
     label: "Tell Us Your Story"
@@ -96,10 +93,10 @@ funfacts:
     content: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
               
   # testimonial item loop
-  - name: "Rose Rio"
+  - name: "Rebecca M"
     image: "images/clients/avater-3.jpg"
-    designation: "CEO-Themefisher"
-    content: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
+    designation: "CEO-Vermillion"
+    content: "Rose Coded helped me from start to finish -- my blog, my marketing, and even the web app that runs my business! Now I can really focus on improving my service offerings instead of tweaking and tinkering."
 
 
 ---
