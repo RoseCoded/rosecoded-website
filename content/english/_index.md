@@ -15,9 +15,8 @@ banner:
 about:
   enable: true
   title: "Who are we, really?"
-  content: "We are a group of tech-minded individuals. Seeing a need in our community for more robust digital solutions, we wanted to carve out space in the consulting world for a human-centric co-operative. We truly believe in the Solidarity Economy and its power to shape the future of our society for the better.
-  
-  Our hope is to provide an alternative to traditional consulting agencies for organizations looking to make an impact. Everything we do is part of our purpose to help all people gain the most power possible over their own lives."
+  description: "We are a group of tech-minded individuals. "
+  content: "Seeing a need in our community for more robust digital solutions, we wanted to carve out space in the consulting world for a human-centric co-operative. We truly believe in the Solidarity Economy and its power to shape the future of our society for the better. Our hope is to provide an alternative to traditional consulting agencies for organizations looking to make an impact. Everything we do is part of our purpose to help all people gain the most power possible over their own lives."
   image: "images/wrapper-img.png"
 
 
@@ -27,8 +26,9 @@ portfolio:
   bg_image: "images/feature-bg.jpg"
   title: "WE BELIEVE IN GREAT IDEAS"
   content: "Big or small, your projects are important to us. We specialize in building tools and websites that respect your vision and values. We also provide training and consultation to meet your goals. 
-  
-  We do more than code. From company to community, we empower others to build the change they want to see. 
+
+
+  We do more than code. From company to community, we empower others to build the change they want to see.
   "
   button:
     enable: true
