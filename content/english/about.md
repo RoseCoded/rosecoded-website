@@ -11,7 +11,10 @@ about:
   enable : true
   image : "images/company/about.jpg"
   title : "We make the web work for workers. "
-  content : "Rose Coded was founded in Portland, Oregon in 2021 by a group of professionals with a diverse collection of technical and creative skills who decided to start a business together. Founded on the principles of a democratic workplace, our cooperative business is worker owned and operated, which means that every worker is a part owner and receives an equal say in the business. This means that every employee has a stake in the success of the company and by extension your business!"
+  content : "Rose Coded was founded in Portland, Oregon in 2021 by a group of professionals with a diverse collection of technical and creative skills who decided to start a business together. 
+
+
+  Founded on the principles of a democratic workplace, our cooperative business is worker owned and operated, which means that every worker is a part owner and receives an equal say in the business. This means that every employee has a stake in the success of the company and by extension your business!"
 
     
 ################################ feature #####################################
@@ -35,17 +38,17 @@ features:
     content : "Employee engagement comes from having a true voice at the table."
     
   # feature item loop
-  - icon : "ion-ios-star" #ionicon pack v2 : https://ionicons.com/v2/
+  - icon : "ion-ios-star-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Empowerment"
     content : "To grow as a co-operative, we empower our indvidual workers to go above and beyond."
     
   # feature item loop
-  - icon : "ion-ios-people" #ionicon pack v2 : https://ionicons.com/v2/
+  - icon : "ion-ios-people-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Community"
     content : "We believe in building stronger communities from the inside out."
     
   # feature item loop
-  - icon : "ion-ios-star-outline" #ionicon pack v2 : https://ionicons.com/v2/
+  - icon : "ion-ios-leaf-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Sustainability"
     content : "We are committed to sustainable practices that keep our planet and business running smoothly."
   
