@@ -71,7 +71,7 @@ service:
 
     # service item loop
     - icon : ion-earth #ionicon pack v2 : https://ionicons.com/v2/
-      name: Brand Identity
+      name: E-Commerce
       content: "From selling homemade items, online event tickets, business to business, or retail products, we can help you with an e-commerce solution that works."
 
     # service item loop
