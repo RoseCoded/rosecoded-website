@@ -5,9 +5,6 @@
   background-position: center center;
   padding: 170px 0 200px;
   position: relative;
-  @include mobile {
-    padding: 3em 0 5em 0;
-  }
   @include tablet {
     background-attachment: scroll;
     padding: 150px 0;
@@ -43,4 +40,7 @@
       font-weight: 300;
     }
   }
+}
+@include mobile {
+  padding: 3em 0 5em 0;
 }
