@@ -48,7 +48,7 @@ features:
     content : "We believe in building stronger communities from the inside out."
     
   # feature item loop
-  - icon : "ion-ios-leaf-outline" #ionicon pack v2 : https://ionicons.com/v2/
+  - icon : "ion-earth" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Sustainability"
     content : "We are committed to sustainable practices that keep our planet and business running smoothly."
   
