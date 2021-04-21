@@ -237,6 +237,9 @@ input[type="tel"] {
 
 .section {
   padding: 100px 0;
+  @include tablet {
+    padding: 50px 0;
+  }
 }
 
 .section-sm {
@@ -267,6 +270,9 @@ input[type="tel"] {
     font-style: italic;
     color: #666;
     font-family: $secondary-font;
+    @include tablet {
+      padding: 0 1em;
+    }
   }
 }
 
