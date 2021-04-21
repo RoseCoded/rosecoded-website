@@ -272,6 +272,9 @@ input[type="tel"] {
     font-family: $secondary-font;
     @include tablet {
       padding: 0 1em;
+      .section-title p {
+        margin: 0;
+      }
     }
   }
 }
