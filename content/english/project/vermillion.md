@@ -7,30 +7,22 @@ bg_image: "images/feature-bg.jpg"
 category: "Web App"
 project_url: "https://vermillion.app/"
 information:
-  - label : "Client"
-    info : "Vermillion Ventures Inc."
-  - label : "What We Did"
+  - label : "Our Work"
     info : "Progressive web app"
   - label : "Tools Used"
-    info : "IFTTT, Zapier, Airtable, "
+    info : "Firebase, NodeJS"
   - label : "Year"
     info : "2020"
-  - label : "Skills"
-    info : "HTML5 / PHP / CSS3"
 ---
 
 ## Progressive Web App
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus
-reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas. Tempora modi amet voluptate
-at provident soluta consequatur.
+Vermillion is a budgeting platform that allows users to track their expenses and maximize their savings rate. It includes user authorization, Google ads, and premium subscriptions (using Stripe). Using this tool, folks can plan out every dollar to make sure they are prioritizing their money.
 
-## Social Media Automation
+## Our Work
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quibusdam sed, neque recusandae, est
-odit. A facere tempore soluta laborum.
+We developed the core application and ported it to Android for upload to the Google Play Store. This includes a Realtime Database to keep track of users, their budgets, and their expenses. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, rem eaque facilis. Sit, voluptas?
-Error soluta odio, harum tenetur, alias in iure ipsam blanditiis illo, ratione, magnam a minima incidunt!
-Suscipit facilis, ut maxime libero necessitatibus, rerum aut voluptates aliquam maiores iusto qui
-temporibus nesciunt, incidunt in quasi. Veniam aliquid ea aperiam, obcaecati voluptate ab, temporibus
+Additionally users are added to a MailChimp mailing list for updated emails about their budget. 
+
+Lastly, we set up social media automation for Pinterest (using Tailwind), Instagram (using Zapier and Airtable), and Facebook (using IFTTT). These tools allow the client to organize content and schedule it ahead of time for free.

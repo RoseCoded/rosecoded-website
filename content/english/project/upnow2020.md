@@ -7,16 +7,12 @@ bg_image: "images/feature-bg.jpg"
 category: "Static Site"
 project_url: "https://upnow2020.org/"
 information:
-  - label : "Client"
-    info : "UpNow 2020"
   - label : "What We Did"
     info : "Static Website"
   - label : "Tools Used"
-    info : "Photoshop,Illustrator"
+    info : "Wordpress"
   - label : "Year"
     info : "2020"
-  - label : "Skills"
-    info : "HTML5 / PHP / CSS3"
 ---
 
 ## Campaign Website with Blog, Mailing List, and Donations
@@ -25,6 +21,9 @@ Universal Preschool NOW! is a coalition of parents, child care providers, presch
 
 
 
-We developed the website that was used as a focus point of the campaign, centralizing information and faciliating donations. UpNow was also able to maintain a mailing list and active blog to keep their participants up to date and organize collective action. 
-
 In 2020, their campaign was successful! Measure 26-214 ensures Multnomah County families have access to free preschool for every 3- and 4-year-old while guaranteeing preschool workers a living wage. 
+
+## Our Work
+
+
+We developed the website that was used as a focus point of the campaign, centralizing information and faciliating donations. UpNow was also able to maintain a mailing list and active blog to keep their participants up to date and organize collective action. 
