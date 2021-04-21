@@ -12,11 +12,6 @@
       font-size: 35px;
     }
   }
-  @include mobile {
-    .block h1 {
-      font-size: 35px;
-    }
-  }
   .block {
     color: #E3E3E4;
     text-align: center;
@@ -28,6 +23,11 @@
       letter-spacing: 10px;
       padding-bottom: 15px;
       text-transform: uppercase;
+    }
+    @include mobile {
+      h1 {
+        font-size: 35px;
+      }
     }
 
     p {
