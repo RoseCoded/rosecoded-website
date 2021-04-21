@@ -8,11 +8,7 @@
   @include tablet {
     background-attachment: scroll;
     padding: 150px 0;
-    h1{
-      font-size: 35px;
-    }
   }
-
   .block {
     color: #E3E3E4;
     text-align: center;
@@ -25,6 +21,16 @@
       padding-bottom: 15px;
       text-transform: uppercase;
     }
+    @include mobile {
+      h1 {
+        font-size: 35px;
+      }
+    }
+    @include tablet {
+      h1{
+        font-size: 35px;
+      }
+    }
 
     p {
       margin-bottom: 30px;
@@ -34,4 +40,7 @@
       font-weight: 300;
     }
   }
+}
+@include mobile {
+  padding: 3em 0 5em 0;
 }
