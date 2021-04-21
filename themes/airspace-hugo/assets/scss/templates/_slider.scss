@@ -7,16 +7,10 @@
   position: relative;
   @include mobile {
     padding: 3em 0 5em 0;
-    h1 {
-      font-size: 35px;
-    }
   }
   @include tablet {
     background-attachment: scroll;
     padding: 150px 0;
-    h1{
-      font-size: 35px;
-    }
   }
   .block {
     color: #E3E3E4;
@@ -29,6 +23,16 @@
       letter-spacing: 10px;
       padding-bottom: 15px;
       text-transform: uppercase;
+    }
+    @include mobile {
+      h1 {
+        font-size: 35px;
+      }
+    }
+    @include tablet {
+      h1{
+        font-size: 35px;
+      }
     }
 
     p {
