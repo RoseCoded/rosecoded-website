@@ -7,7 +7,7 @@
   position: relative;
   @include tablet {
     background-attachment: scroll;
-    padding: 150px 0;
+    padding: 3em 0 5em 0;
   }
   .block {
     color: #E3E3E4;
@@ -40,7 +40,4 @@
       font-weight: 300;
     }
   }
-}
-@include mobile {
-  padding: 3em 0 5em 0;
 }
