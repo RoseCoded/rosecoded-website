@@ -7,16 +7,12 @@ bg_image: "images/feature-bg.jpg"
 category: "E-Commerce"
 project_url: "https://rosebuds-grocery.com/"
 information:
-  - label : "Client"
-    info : "Rosebuds Solidarity Grocery"
-  - label : "What We Did"
+  - label : "Our Work"
     info : "E-Commerce Website"
   - label : "Tools Used"
     info : "Wordpress, Woo Commerce"
   - label : "Year"
     info : "2021"
-  - label : "Skills"
-    info : "HTML5 / PHP / CSS3"
 ---
 
 ## Grocery Delivery Website Design & Development

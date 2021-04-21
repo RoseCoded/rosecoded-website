@@ -6,43 +6,71 @@
 
 <!-- Portfolio Start -->
 <section class="portfolio-work">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <div class="portfolio-menu">
-            <div class="btn-group btn-group-toggle justify-content-center" data-toggle="buttons">
-              <label class="btn btn-sm btn-primary active">
-                <input type="radio" name="shuffle-filter" value="all" checked="checked">{{ i18n "all" }}
-              </label>
-              {{ $categories := slice }}
-              {{ range .Data.Pages }}
-              {{ $categories = $categories | append .Params.Category }}
-              {{ end }}
-              {{ range ( $categories | uniq ) }}
-              <label class="btn btn-sm btn-primary">
-                <input type="radio" name="shuffle-filter" value="{{ . | urlize }}">{{ . | humanize }}
-              </label>
-              {{ end }}
-            </div>
-          </div>
-          <div class="row shuffle-wrapper">
-            {{ range .Data.Pages }}
-            <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;{{ .Params.Category | urlize }}&quot;]">
-              <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
-              <div class="portfolio-hover">
-                <div class="portfolio-content">
-                  <a class="h3" href="{{ .Permalink }}">{{ .Title }}</a>
-                  <p>{{ .Params.Description }}</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <div class="portfolio-menu">
+                        <div class="btn-group btn-group-toggle justify-content-center" data-toggle="buttons">
+                            <label class="btn btn-sm btn-primary active">
+                                <input type="radio" name="shuffle-filter" value="all" checked="checked">{{ i18n "all" }}
+                            </label>
+                            {{ $categories := slice }}
+                            {{ range .Data.Pages }}
+                            {{ $categories = $categories | append .Params.Category }}
+                            {{ end }}
+                            {{ range ( $categories | uniq ) }}
+                            <label class="btn btn-sm btn-primary">
+                                <input type="radio" name="shuffle-filter" value="{{ . | urlize }}">{{ . | humanize }}
+                            </label>
+                            {{ end }}
+                        </div>
+                    </div>
+                    <div class="row shuffle-wrapper">
+                        {{ range .Data.Pages }}
+                        <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;{{ .Params.Category | urlize }}&quot;]">
+                            <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-content">
+                                    <a class="h3" href="{{ .Permalink }}">{{ .Title }}</a>
+                                    <p>{{ .Params.Description }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+<!--
+                    <div class="row">
+                        <ul>
+                            {{ range .Data.Pages }}
+                            <li>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+                                    </div>
+                                    <div class="col-md-6">
+
+                                        <div class="">
+                                            <a class="h3" href="{{ .Permalink }}">{{ .Title }}</a>
+                                            <p>{{ .Params.Description }}</p>
+                                            <p>{{ .Params.Description }}</p>
+
+                                            <a href="{{.Params.project_url}}" class="btn btn-main animated fadeInUp" style="">View Project</a>
+                                            {{ if isset .Params "project_url" }}
+                                            <a href="{{.Params.project_url}}" class="btn btn-main animated fadeInUp">Visit website</a>
+                                            {{ end }}
+                                        </div>
+                                    </div>
+                                </div><br><br><br><br>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+-->
                 </div>
-              </div>
             </div>
-            {{ end }}
-          </div>
         </div>
-      </div>
     </div>
-  </div>
 </section>
 
 {{ end }}
