@@ -10,6 +10,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
+                    <!--
                     <div class="portfolio-menu">
                         <div class="btn-group btn-group-toggle justify-content-center" data-toggle="buttons">
                             <label class="btn btn-sm btn-primary active">
@@ -26,6 +27,7 @@
                             {{ end }}
                         </div>
                     </div>
+
                     <div class="row shuffle-wrapper">
                         {{ range .Data.Pages }}
                         <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;{{ .Params.Category | urlize }}&quot;]">
@@ -39,26 +41,35 @@
                         </div>
                         {{ end }}
                     </div>
-<!--
+-->
                     <div class="row">
                         <ul>
                             {{ range .Data.Pages }}
                             <li>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+                                        <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}" style="border: 1px solid lightgrey; margin-bottom: 20px;">
                                     </div>
                                     <div class="col-md-6">
 
                                         <div class="">
-                                            <a class="h3" href="{{ .Permalink }}">{{ .Title }}</a>
-                                            <p>{{ .Params.Description }}</p>
-                                            <p>{{ .Params.Description }}</p>
+                                            <a class="h3" href="{{ .Permalink }}">{{ .Title }}</a><br><br>
+                                            <p>{{ .Params.longDescription }}</p>
 
-                                            <a href="{{.Params.project_url}}" class="btn btn-main animated fadeInUp" style="">View Project</a>
-                                            {{ if isset .Params "project_url" }}
-                                            <a href="{{.Params.project_url}}" class="btn btn-main animated fadeInUp">Visit website</a>
-                                            {{ end }}
+                                            <div class="project-details">
+                                                <br>
+                                                <ul>
+                                                    {{ range .Params.Information }}
+                                                    <li><span>{{ .label }} :</span> <strong>{{ .info | markdownify }}</strong></li>
+                                                    {{ end }}
+                                                </ul>
+                                                <br>
+                                                <a href="{{.Permalink}}" class="btn btn-main animated fadeInUp" style="">View Project</a>
+                                                {{ if isset .Params "project_url" }}
+                                                <a href="{{.Params.project_url}}" class="btn btn-main animated fadeInUp">Visit website</a>
+                                                {{ end }}
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div><br><br><br><br>
@@ -66,7 +77,6 @@
                             {{ end }}
                         </ul>
                     </div>
--->
                 </div>
             </div>
         </div>

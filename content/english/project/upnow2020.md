@@ -1,13 +1,14 @@
 ---
 title: "UpNow 2020"
 description: "Metro campaign for universal preschool for all."
+longDescription: "We developed the website that was used as a focus point of the campaign, centralizing information and faciliating donations. UpNow was also able to maintain a mailing list and active blog to keep their participants up to date and organize collective action."
 draft: false
 image : "images/portfolio/UpNow2020.PNG"
 bg_image: "images/feature-bg.jpg"
 category: "Static Site"
 project_url: "https://upnow2020.org/"
 information:
-  - label : "What We Did"
+  - label : "Our Work"
     info : "Static Website"
   - label : "Tools Used"
     info : "Wordpress"

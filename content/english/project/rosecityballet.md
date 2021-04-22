@@ -1,11 +1,11 @@
 ---
 title: "Rose City Ballet"
 description: "High quality children's ballet lessons."
+longDescription: "Rose City Ballet provides high quality children's ballet lessons. We designed and created the professional website which houses information about lessons, pricing, and testimonials. There is also a contact page and a photo gallery for prospective customers."
 draft: false
 image : "images/portfolio/RoseCityBallet.PNG"
 bg_image: "images/feature-bg.jpg"
 category: "Static Site"
-longDescription: ""
 project_url: "https://www.rosecityballetschool.com/"
 information:
   - label : "Our Work"

@@ -1,6 +1,7 @@
 ---
 title: "Vermillion"
 description: "Progressive web/mobile app for budgeting."
+longDescription: "Vermillion is a budgeting platform that allows users to track their expenses and maximize their savings rate. It includes user authorization, Google ads, and premium subscriptions (using Stripe). Using this tool, folks can plan out every dollar to make sure they are prioritizing their money."
 draft: false
 image : "images/portfolio/Vermillion2.PNG"
 bg_image: "images/feature-bg.jpg"
