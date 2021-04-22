@@ -1,6 +1,7 @@
 ---
 title: "Rosebuds Solidarity Grocery"
 description: "Food delivery worker cooperative operating in Portland, Oregon."
+longDescription: "Rosebuds Solidarity Grocery is your Portland, Oregon grocery delivery service. We developed the core e-commerce website which allows users to add items to a virtual shopping cart, checkout, and pay for their order by debit/credit card. Worker/owners can login to manage orders, track inventory, and report on financials."
 draft: false
 image : "images/portfolio/RosebudsSolidarityGrocery.PNG"
 bg_image: "images/feature-bg.jpg"
