@@ -258,11 +258,11 @@ home = ["HTML"]
 
 [params]
 author = "Themefisher"
-description = "This is meta description"
+description = "An Information Technology Consulting Co-Operative"
 images = ["images/logo.png"]
 logo = "images/logo.png"
 logo_width = "150px"
-title = "Airspace Hugo Template"
+title = "Rose Coded | IT Cooperative"
 favicon = "images/favicon.ico"
 
 [params.contact]

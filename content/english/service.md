@@ -1,6 +1,6 @@
 ---
 title: "Service"
-description: "An Information Technology Consulting Co-Operative"
+description: "this is meta description"
 bg_image: "images/feature-bg.jpg"
 layout: "service"
 draft: false
