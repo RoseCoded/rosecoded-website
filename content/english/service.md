@@ -47,7 +47,7 @@ featured_service:
 service:
   enable : true
   title : "Our Services"
-  description : "We provide custom software software solutions for your specific business needs.<br>Whether that's a website for your business, a new software product you're developing, or custom internal solutions, we can help."
+  description : "We provide custom software solutions for your specific business needs.<br>Whether that's a website for your business, a new software product you're developing, or custom internal solutions, we can help."
   service_item:
     # service item loop
     - icon : ion-wand #ionicon pack v2 : https://ionicons.com/v2/
