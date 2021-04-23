@@ -9,9 +9,9 @@ category: "Static Site"
 project_url: "https://upnow2020.org/"
 information:
   - label : "Our Work"
-    info : "Static Website"
+    info : "Static Website w/ User Portal"
   - label : "Tools Used"
-    info : "Wordpress"
+    info : "C# .NET Core on Linux"
   - label : "Year"
     info : "2020"
 ---

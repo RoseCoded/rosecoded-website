@@ -9,9 +9,9 @@ category: "Static Site"
 project_url: "https://www.rosecityballetschool.com/"
 information:
   - label : "Our Work"
-    info : "Website Design"
+    info : "Website Coding"
   - label : "Tools Used"
-    info : "Wordpress"
+    info : "SquareSpace"
   - label : "Year"
     info : "2019"
 ---
