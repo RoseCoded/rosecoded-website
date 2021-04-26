@@ -8,6 +8,15 @@
     <language>en-US</language>
     <copyright>Copyright &amp;copy; 2021 Rose Coded LLC. All Rights Reserved.</copyright><atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Portland DSA</title>
+      <link>/project/portlanddsa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/portlanddsa/</guid>
+      <description>Campaign Website with Blog, Mailing List, and Donations The Portland DSA seeks to build local, national, and international progressive mass movements for social justice and transformative change while also establishing an openly socialist presence in the Portland metro region.</description>
+    </item>
+    
+    <item>
       <title>Rose City Ballet</title>
       <link>/project/rosecityballet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -40,7 +49,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/project/vermillion/</guid>
-      <description>Progressive Web App Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas. Tempora modi amet voluptate at provident soluta consequatur.</description>
+      <description>Progressive Web App Vermillion is a budgeting platform that allows users to track their expenses and maximize their savings rate. It includes user authorization, Google ads, and premium subscriptions (using Stripe).</description>
     </item>
     
   </channel>
