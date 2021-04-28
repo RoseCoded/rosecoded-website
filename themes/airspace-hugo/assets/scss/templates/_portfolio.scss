@@ -105,16 +105,19 @@
 			color: #838383;
 			width: 180px;
 			display: inline-block;
+			width: 50%;
 		}
 
 		strong {
 			color: #313131;
 			font-weight: normal;
+			width: 50%;
 		}
 
 		ul {
 			li {
 				margin-bottom: 10px;
+				display: flex;
 			}
 		}
 	}
