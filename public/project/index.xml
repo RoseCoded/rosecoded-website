@@ -13,7 +13,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/project/portlanddsa/</guid>
-      <description>Campaign Website with Blog, Mailing List, and Donations The Portland DSA seeks to build local, national, and international progressive mass movements for social justice and transformative change while also establishing an openly socialist presence in the Portland metro region.</description>
+      <description>Portland DSA Design &amp;amp; Development The Democratic Socialists of America is the United States’ largest socialist organization with over 55,000 members currently. As of February 2020, the Portland chapter has over 1,100 members.</description>
     </item>
     
     <item>
@@ -32,6 +32,15 @@
       
       <guid>/project/rosebudssolidaritygrocery/</guid>
       <description>Grocery Delivery Website Design &amp;amp; Development Rosebuds Solidarity Grocery is your Portland, Oregon grocery delivery service. Their mission is to safely deliver high-quality food to consumers at lower prices. They provide a living wage, and stable employment to our worker owners by organizing as a worker-consumer cooperative.</description>
+    </item>
+    
+    <item>
+      <title>Substitution Cipher</title>
+      <link>/project/substitution-cipher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/substitution-cipher/</guid>
+      <description>Simple Web App Our customer needed a simple tool to apply a classic substitution cipher in order to generate text for a fictional webcomic world. In addition to applying three such ciphers, the user has the option of copying the text to their clipboard with the click of a button.</description>
     </item>
     
     <item>
