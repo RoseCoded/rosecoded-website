@@ -107,6 +107,14 @@ URL = "project"
 name = "Projects"
 weight = 3
 [[languages.en.menu.main]]
+hasChildren = true
+name = "More"
+weight = 5
+[[languages.en.menu.main]]
+URL = "techsupport"
+name = "Tech Support"
+parent = "More"
+[[languages.en.menu.main]]
 URL = "contact"
 name = "Contact"
 weight = 6
