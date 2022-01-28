@@ -6,7 +6,6 @@ draft: false
 image : "images/portfolio/RosebudsSolidarityGrocery.PNG"
 bg_image: "images/feature-bg.jpg"
 category: "E-Commerce"
-project_url: "https://rosebuds-grocery.com/"
 information:
   - label : "Our Work"
     info : "E-Commerce Website"
