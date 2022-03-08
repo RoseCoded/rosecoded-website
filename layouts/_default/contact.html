@@ -4,7 +4,11 @@
 
 <section class="contact-form">
   <div class="container">
-    {{ with site.Params.contact.form }}{{ if .enable }}
+    
+    
+    {{ .Content | markdownify}}
+    
+    <!-- {{ with site.Params.contact.form }}{{ if .enable }}
     <div class="row">
       <form name="contact" method="POST" action="{{ .action | safeURL }}" {{ if .use_netlify }}netlify netlify-honeypot="nhp"{{ end }}>
         <div class="col-md-6 col-sm-12">
@@ -35,7 +39,7 @@
         </div>
       </form>
     </div>
-    {{ end }}{{ end }}
+    {{ end }}{{ end }} -->
     <div class="contact-box row">
         
       {{ with site.Params.contact }}
