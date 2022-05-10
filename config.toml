@@ -10,7 +10,7 @@ title = "Rose Coded | IT Cooperative"
 
 [languages.de]
 contentDir = "content/german"
-copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). Alle Rechte vorbehalten."
+copyright = "Copyright &copy; 2022 [Themefisher](https://themefisher.com). Alle Rechte vorbehalten."
 languageCode = "de-DE"
 languageName = "Deutsch"
 weight = 3
@@ -78,7 +78,7 @@ weight = 6
 
 [languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2021 Rose Coded LLC. All Rights Reserved."
+copyright = "Copyright &copy; 2022 Rose Coded LLC. All Rights Reserved."
 languageCode = "en-US"
 languageName = "English"
 weight = 1
@@ -94,6 +94,10 @@ weight = 2
 URL = "contact"
 name = "Contact"
 weight = 6
+[[languages.en.menu.footer]]
+URL = "careers"
+name = "Careers"
+weight = 8
 [[languages.en.menu.main]]
 URL = "/"
 name = "Home"
@@ -279,8 +283,8 @@ favicon = "images/favicon.ico"
 
 [params.contact]
 address_descriptors = true
-email = "rosecoded@protonmail.com"
-phone = "503-673-1738"
+email = "contact@rosecoded.com"
+phone = "503-893-9644"
 [params.contact.form]
 action = "#"
 enable = true
