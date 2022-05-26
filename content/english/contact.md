@@ -7,4 +7,8 @@ draft: false
 ---
 
 
+{{% center %}}
+*Psst* -- Want to join our team? Check out the [Careers page]({{< ref "/careers" >}} "Careers page") instead!
+{{% /center %}}
+
 {{< airtableform >}}

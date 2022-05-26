@@ -6,5 +6,9 @@ layout: "contact"
 draft: false
 ---
 
+{{% center %}}
+We don't currently have any openings, but we're always happy to network with new and interesting people!
+{{% /center %}}
+
 
 {{< careersform >}}
