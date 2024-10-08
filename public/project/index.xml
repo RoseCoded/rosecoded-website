@@ -6,7 +6,11 @@
     <description>Recent content in Our Projects on Rose Coded | IT Cooperative</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
+<<<<<<< HEAD
     <copyright>Copyright &amp;copy; 2022 Rose Coded LLC. All Rights Reserved.</copyright><atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+=======
+    <copyright>Copyright &amp;copy; 2021 Rose Coded LLC. All Rights Reserved.</copyright><atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 44b3cd3 (merge)
     <item>
       <title>Portland DSA</title>
       <link>/project/portlanddsa/</link>

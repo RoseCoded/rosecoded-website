@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <section class="page-title bg-2" style="background-image: url('{{.Params.Bg_image | absURL}}');">
   <div class="container">
     <div class="row">
@@ -9,4 +10,17 @@
       </div>
     </div>
   </div>
+=======
+<section class="page-title bg-2" style="background-image: url('{{.Params.Bg_image | relURL}}');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>{{ .Title }}</h1>
+          <p>{{ .Params.Description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+>>>>>>> 44b3cd3 (merge)
 </section>

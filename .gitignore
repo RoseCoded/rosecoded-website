@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Thumbs.db
 .DS_Store
 .dist
@@ -7,3 +8,19 @@ npm-debug.log
 node_modules
 builds
 package-lock.json
+=======
+Thumbs.db
+.DS_Store
+.dist
+.tmp
+.sass-cache
+npm-debug.log
+node_modules
+builds
+package-lock.json
+.env
+docker-compose.build.yml
+docker-compose.yml
+kubectl
+kubectl.sha256
+>>>>>>> 44b3cd3 (merge)

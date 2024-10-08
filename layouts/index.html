@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {{ define "main" }}
 
 <!-- banner -->
@@ -85,4 +86,93 @@
 {{ end }}
 <!-- /Call to action -->
 
+=======
+{{ define "main" }}
+
+<!-- banner -->
+{{ with .Params.banner }}
+{{ if .enable }}
+<section class="slider {{if .bg_overlay}}overly{{end}}" style="background-image: url('{{ .bg_image | relURL }}');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>{{ .title | markdownify }}</h1>
+          <p>{{ .content | markdownify }}</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | relLangURL }}" target="_blank" class="btn btn-main animated fadeInUp">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /banner -->
+
+{{ with .Params.about }}
+{{ if .enable }}
+<!-- about -->
+<section class="about section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>{{ .title | markdownify }}</h2>
+            <p>{{ .description | markdownify }}</p>
+          </div>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="{{ .image | relURL }}" class="img-responsive" alt="Img">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /about -->
+{{ end }}
+{{ end }}
+
+{{ with .Params.portfolio }}
+{{ if .enable }}
+<!-- portfolio -->
+<section class="feature bg-2 call-to-action overly" style="background-image: url('{{ .bg_image | relURL}}')">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-6">
+        <h2 class="section-subtitle">{{ .title | markdownify }}</h2>
+        {{ .content | markdownify }}
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /portfolio -->
+{{ end }}
+{{ end }}
+
+<!-- Service -->
+{{ if .Params.service.enable }}
+{{ partial "service.html" . }}
+{{ end }}
+<!-- /service -->
+
+<!-- Call to action -->
+{{ if .Params.cta.enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+<!-- /Call to action -->
+
+>>>>>>> 44b3cd3 (merge)
 {{ end }}

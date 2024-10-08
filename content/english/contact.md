@@ -7,8 +7,11 @@ draft: false
 ---
 
 
+<<<<<<< HEAD
 {{% center %}}
 *Psst* -- Want to join our team? Check out the [Careers page]({{< ref "/careers" >}} "Careers page") instead!
 {{% /center %}}
 
+=======
+>>>>>>> 44b3cd3 (merge)
 {{< airtableform >}}

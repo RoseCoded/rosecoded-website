@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <head>
   <meta charset="utf-8">
   <title>{{with .Title}}{{.}}{{else}}{{site.Title}}{{end}}</title>
@@ -69,3 +70,54 @@ src="https://www.facebook.com/tr?id=885759949010346&ev=PageView&noscript=1"
 </script>
 
 </head>
+=======
+<head>
+  <meta charset="utf-8">
+  <title>{{with .Title}}{{.}}{{else}}{{site.Title}}{{end}}</title>
+
+  {{ "<!-- mobile responsive meta -->" | safeHTML }}
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ hugo.Generator }}
+
+  {{ with .Params.image }}
+  <meta property="og:image" content="{{ . | relURL }}" />
+  {{ end }}
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+  {{ template "_internal/google_analytics.html" . }}
+
+  {{ "<!-- plugins -->" | safeHTML }}
+  {{ range site.Params.plugins.css}}
+  <link rel="stylesheet" type="text/css" href="{{ .link | relURL }}" {{.attributes | safeHTMLAttr}}>
+  {{ end }}
+
+  {{ "<!-- Main Stylesheet -->" | safeHTML }}
+  {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
+  <link rel="stylesheet" type="text/css" href="{{ $styles.RelPermalink }}" />
+
+  {{ "<!--Favicon-->" | safeHTML }}
+  <link rel="shortcut icon" href="{{ `images/favicon.png` | relURL }}" type="image/x-icon">
+  <link rel="icon" href="{{ `images/favicon.png` | relURL }}" type="image/x-icon">
+    
+    {{ "<!-- Facebook Pixel Code -->" | safeHTML }}
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '885759949010346');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=885759949010346&ev=PageView&noscript=1"
+/></noscript>
+{{ "<!-- End Facebook Pixel Code -->" | safeHTML }}
+
+</head>
+>>>>>>> 44b3cd3 (merge)
