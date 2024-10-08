@@ -2,11 +2,7 @@
 ############################### Banner ##############################
 banner:
   enable: true
-<<<<<<< HEAD
-  bg_image: "https://images.pexels.com/photos/50711/board-electronics-computer-data-processing-50711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-=======
   bg_image: "images/board-electronics-computer-data-processing-50711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
->>>>>>> 44b3cd3 (merge)
   bg_overlay: true
   title: "An Information Technology <br/> Consulting Co-operative"
   content: "We make the web work for workers. We believe in a better future for all, and strive to provide innovative solutions for forward-thinking orgs."
