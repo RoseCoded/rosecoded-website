@@ -6,92 +6,71 @@
     <description>Recent content in Tags on Rose Coded | IT Cooperative</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-<<<<<<< HEAD
     <copyright>Copyright &amp;copy; 2022 Rose Coded LLC. All Rights Reserved.</copyright>
-=======
-    <copyright>Copyright &amp;copy; 2021 Rose Coded LLC. All Rights Reserved.</copyright>
->>>>>>> 44b3cd3 (merge)
-    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0100</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to</title>
+      <title>How To</title>
       <link>/tags/how-to/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0100</pubDate>
-      
       <guid>/tags/how-to/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Technology</title>
       <link>/tags/technology/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0100</pubDate>
-      
       <guid>/tags/technology/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Advice</title>
       <link>/tags/advice/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
-      
       <guid>/tags/advice/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>AI</title>
       <link>/tags/ai/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
-      
       <guid>/tags/ai/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Android</title>
       <link>/tags/android/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
-      
       <guid>/tags/android/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Company</title>
       <link>/tags/company/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
-      
       <guid>/tags/company/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Mechine</title>
       <link>/tags/mechine/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
-      
       <guid>/tags/mechine/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>News</title>
       <link>/tags/news/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
-      
       <guid>/tags/news/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Retro</title>
       <link>/tags/retro/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
-      
       <guid>/tags/retro/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

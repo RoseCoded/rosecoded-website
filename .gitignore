@@ -12,4 +12,4 @@ docker-compose.build.yml
 docker-compose.yml
 kubectl
 kubectl.sha256
-public
+public/

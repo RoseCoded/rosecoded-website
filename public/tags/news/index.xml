@@ -6,20 +6,15 @@
     <description>Recent content in News on Rose Coded | IT Cooperative</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-<<<<<<< HEAD
     <copyright>Copyright &amp;copy; 2022 Rose Coded LLC. All Rights Reserved.</copyright>
-=======
-    <copyright>Copyright &amp;copy; 2021 Rose Coded LLC. All Rights Reserved.</copyright>
->>>>>>> 44b3cd3 (merge)
-    <lastBuildDate>Mon, 24 Sep 2018 11:07:10 +0600</lastBuildDate><atom:link href="/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Sep 2018 11:07:10 +0600</lastBuildDate>
+    <atom:link href="/tags/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How To Wear Bright Shoes</title>
       <link>/blog/blog-post-6/</link>
       <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
-      
       <guid>/blog/blog-post-6/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vitae placeat ad architecto nostrum asperiores vel aperiam, veniam eum nulla. Maxime cum magnam, adipisci architecto quibusdam cumque veniam fugiat quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
     </item>
-    
   </channel>
 </rss>

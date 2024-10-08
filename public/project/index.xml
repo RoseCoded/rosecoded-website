@@ -6,64 +6,49 @@
     <description>Recent content in Our Projects on Rose Coded | IT Cooperative</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-<<<<<<< HEAD
-    <copyright>Copyright &amp;copy; 2022 Rose Coded LLC. All Rights Reserved.</copyright><atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
-=======
-    <copyright>Copyright &amp;copy; 2021 Rose Coded LLC. All Rights Reserved.</copyright><atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
->>>>>>> 44b3cd3 (merge)
+    <copyright>Copyright &amp;copy; 2022 Rose Coded LLC. All Rights Reserved.</copyright>
+    <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Portland DSA</title>
       <link>/project/portlanddsa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/project/portlanddsa/</guid>
       <description>Portland DSA Design &amp;amp; Development The Democratic Socialists of America is the United States’ largest socialist organization with over 55,000 members currently. As of February 2020, the Portland chapter has over 1,100 members.</description>
     </item>
-    
     <item>
       <title>Rose City Ballet</title>
       <link>/project/rosecityballet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/project/rosecityballet/</guid>
       <description>Professional Website with Image Gallery Rose City Ballet School is proud to include the AMERICAN BALLET THEATRE® National Training Curriculum, a breakthrough 9 level program that combines high quality artistic training with the basics of dancer health and child development.</description>
     </item>
-    
     <item>
       <title>Rosebuds Solidarity Grocery</title>
       <link>/project/rosebudssolidaritygrocery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/project/rosebudssolidaritygrocery/</guid>
       <description>Grocery Delivery Website Design &amp;amp; Development Rosebuds Solidarity Grocery is your Portland, Oregon grocery delivery service. Their mission is to safely deliver high-quality food to consumers at lower prices. They provide a living wage, and stable employment to our worker owners by organizing as a worker-consumer cooperative.</description>
     </item>
-    
     <item>
       <title>Substitution Cipher</title>
       <link>/project/substitution-cipher/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/project/substitution-cipher/</guid>
       <description>Simple Web App Our customer needed a simple tool to apply a classic substitution cipher in order to generate text for a fictional webcomic world. In addition to applying three such ciphers, the user has the option of copying the text to their clipboard with the click of a button.</description>
     </item>
-    
     <item>
       <title>UpNow 2020</title>
       <link>/project/upnow2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/project/upnow2020/</guid>
       <description>Campaign Website with Blog, Mailing List, and Donations Universal Preschool NOW! is a coalition of parents, child care providers, preschool workers, unions, and community groups who understand that universal preschool is a fundamental part of the fight for social, racial, and economic justice.</description>
     </item>
-    
     <item>
       <title>Vermillion</title>
       <link>/project/vermillion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/project/vermillion/</guid>
       <description>Progressive Web App Vermillion is a budgeting platform that allows users to track their expenses and maximize their savings rate. It includes user authorization, Google ads, and premium subscriptions (using Stripe).</description>
     </item>
-    
   </channel>
 </rss>
