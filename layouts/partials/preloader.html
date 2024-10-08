@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-{{ if site.Params.preloader.enable }}
-{{ "<!-- preloader start -->" | safeHTML }}
-<div class="preloader">
-  {{ if ne site.Params.preloader.preloader "" }}
-  <img src="{{ site.Params.preloader.preloader | absURL }} " alt="preloader">
-  {{ end }}
-</div>
-{{ "<!-- preloader end -->" | safeHTML }}
-=======
 {{ if site.Params.preloader.enable }}
 {{ "<!-- preloader start -->" | safeHTML }}
 <div class="preloader">
@@ -16,5 +6,4 @@
   {{ end }}
 </div>
 {{ "<!-- preloader end -->" | safeHTML }}
->>>>>>> 44b3cd3 (merge)
 {{ end }}
