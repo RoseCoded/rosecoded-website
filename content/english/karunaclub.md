@@ -11,15 +11,15 @@ about:
   title : "Karuna Club -- Lorem ipsum dolor!"
   content : "Lorem ipsum dolor sit?\n
   
-  You invited other analysts to contribute their own LookML and now your repository is a mess! You're following best practices, but it feels like it's only making things worse. And your primary Explore takes longer and longer to load...\n
+  Lorem ipsum odor amet, consectetuer adipiscing elit. Sem platea curae nec habitant proin vestibulum. Fringilla torquent duis venenatis tempus tellus; finibus inceptos morbi tempus. Senectus luctus metus posuere fusce mollis. Sed adipiscing lorem elit ante feugiat. Natoque ipsum interdum scelerisque, tempus ipsum sed quisque magna....\n
   
-  We're here to help.\n
+  Lorem ipsum dolor sit amet.\n
   
-  Whether you're a team of data engineers or one busy guy in a backroom, we can help you support your users by auditing your instance, recommending actionable fixes, and digging into development work. 
+  Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis pharetra metus at nisl dictumst libero. Interdum scelerisque porttitor curabitur varius quam luctus. Nulla urna nisi tincidunt felis pretium.
   
   ## Ready to talk?
   
-  Grab your coffee and let's chat! Schedule a digital meeting with us and we'll help you troubleshoot your issue so you can get back to high-value work. We look forward to learning about your unique situation."
+  Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis pharetra metus at nisl dictumst libero. Interdum scelerisque porttitor curabitur varius quam luctus. Nulla urna nisi tincidunt felis pretium."
   image : "images/mandala-small.png"
   
   buttonText: SIGN UP
