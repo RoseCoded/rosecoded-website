@@ -2,7 +2,7 @@
 title: "Karuna Club"
 description: ""
 bg_image: "images/clouds.gif"
-layout: "newservice"
+layout: "newservice-karuna"
 draft: false
 
 ########################### about service #############################
