@@ -17,7 +17,7 @@ about:
   
   Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis pharetra metus at nisl dictumst libero. Interdum scelerisque porttitor curabitur varius quam luctus. Nulla urna nisi tincidunt felis pretium.
   
-  ## Ready to talk?
+  ## Lorem ipsum odor?
   
   Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis pharetra metus at nisl dictumst libero. Interdum scelerisque porttitor curabitur varius quam luctus. Nulla urna nisi tincidunt felis pretium."
   image : "images/mandala-small.png"
