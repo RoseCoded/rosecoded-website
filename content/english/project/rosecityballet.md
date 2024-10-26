@@ -6,7 +6,7 @@ draft: false
 image : "images/portfolio/RoseCityBallet.PNG"
 bg_image: "images/feature-bg.jpg"
 category: "Static Site"
-project_url: "https://www.rosecityballetschool.com/"
+# project_url: "https://www.rosecityballetschool.com/"
 information:
   - label : "Our Work"
     info : "Website Coding"
