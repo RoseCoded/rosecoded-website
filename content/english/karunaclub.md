@@ -13,13 +13,18 @@ about:
   
   Join a community that operates <b>outside</b> the surveillance capitalist complex. You own your data, and it is not indexed or mined for marketing data. At <b>Karuna Club</b> you are the customer, not the product.\n
   
-  Featuring:\n
+  ## Featuring:
   
-  Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis pharetra metus at nisl dictumst libero. Interdum scelerisque porttitor curabitur varius quam luctus. Nulla urna nisi tincidunt felis pretium.
+  <ul>
+    <li>Email account</li>
+    <li>Chat (integrates with phone)</li>
+    <li>Productivity Suite (like LibreOffice)</li>
+    <li>Calendar with tasks (integrates with phone)</li>
+    <li>Contacts (integrates with phone)</li>
+    <li>Project Budget management software</li>
+    <li>File sync with desktop/laptop</li>
+  </ul>"
   
-  ## Lorem ipsum odor?
-  
-  Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis pharetra metus at nisl dictumst libero. Interdum scelerisque porttitor curabitur varius quam luctus. Nulla urna nisi tincidunt felis pretium."
   image : "images/mandala-small.png"
   
   buttonText: SIGN UP
