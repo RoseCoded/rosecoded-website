@@ -15,7 +15,7 @@ about:
   
   ## Featuring:
   
-  <ul>
+  <ul style='padding-left:2em;list-style-type: square;color: #7b7b7b;'>
     <li>Email account</li>
     <li>Chat (integrates with phone)</li>
     <li>Productivity Suite (like LibreOffice)</li>
