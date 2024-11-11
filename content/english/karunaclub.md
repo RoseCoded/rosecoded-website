@@ -8,12 +8,12 @@ draft: false
 ########################### about service #############################
 about:
   enable : true
-  title : "Karuna Club -- Lorem ipsum dolor!"
-  content : "Lorem ipsum dolor sit?\n
+  title : "Karuna Club -- Take Back Your Data"
+  content : "Fight the enshittification of Big Tech\n
   
-  Lorem ipsum odor amet, consectetuer adipiscing elit. Sem platea curae nec habitant proin vestibulum. Fringilla torquent duis venenatis tempus tellus; finibus inceptos morbi tempus. Senectus luctus metus posuere fusce mollis. Sed adipiscing lorem elit ante feugiat. Natoque ipsum interdum scelerisque, tempus ipsum sed quisque magna....\n
+  Join a community that operates <b>outside</b> the surveillance capitalist complex. You own your data, and it is not indexed or mined for marketing data. At <b>Karuna Club</b> you are the customer, not the product.\n
   
-  Lorem ipsum dolor sit amet.\n
+  Featuring:\n
   
   Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis pharetra metus at nisl dictumst libero. Interdum scelerisque porttitor curabitur varius quam luctus. Nulla urna nisi tincidunt felis pretium.
   
