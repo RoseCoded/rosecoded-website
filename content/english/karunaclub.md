@@ -15,7 +15,7 @@ about:
   
   ## Featuring:
   
-  <ul style='padding-left:2em;list-style-type: square;color: #7b7b7b;'>
+  <ul style='padding-left:2em;list-style-type: square;color: #7b7b7b;line-height: 24px;'>
     <li>Email account</li>
     <li>Chat (integrates with phone)</li>
     <li>Productivity Suite (like LibreOffice)</li>
@@ -27,7 +27,7 @@ about:
   
   image : "images/mandala-small.png"
   
-  buttonText: SIGN UP
+  buttonText: LEARN MORE
   buttonLink: https://karuna.club
   # call to action content comes from "_index.md"
 
